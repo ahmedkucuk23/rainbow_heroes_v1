@@ -1,0 +1,12 @@
+.main-head{
+  background-color: #030606;
+  padding:50px 0;
+}
+.main-head .home-header{
+  font-size: "Akshar", sans-serif!important;
+  color: #fff;
+}
+
+.video_home{
+  width: 100%;
+}
