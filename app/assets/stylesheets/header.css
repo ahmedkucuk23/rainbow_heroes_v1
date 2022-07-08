@@ -2,10 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300;400;500;600&family=Caveat:wght@400;500;600;700&family=IBM+Plex+Sans+Thai+Looped:wght@100;200;300;400;500;600&family=Open+Sans:wght@300;400;600;700&family=Oswald:wght@400;500&family=Roboto:wght@100;300;500&family=Shadows+Into+Light&family=VT323&display=swap');
 .image {
   background-color: #1B1B1B;
-  background: url("coverpagea.png") no-repeat center bottom;
+  background: url("heromain.JPG") no-repeat center bottom;
   background-size: cover;
-  height: 95vh;
-  margin-top: -20px;
+  height: 130vh;
+  width: 100%;
+  margin-top: 0px;
 }
 .image .heading {
   color: white;
@@ -16,7 +17,7 @@
 }
 .heading-home{
   color: white;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Akshar', sans-serif;
   font-weight: 400;
   text-shadow: 0px 0px 9px #000;
   text-align: center;
@@ -46,6 +47,7 @@
   font-size: 30px;
   font-family: 'Akshar', sans-serif;
   color: white;
+  backdrop-filter: blur(7px);
   z-index: 100;
   box-shadow: none;
   transition: background-color 1s ease 0s;
@@ -150,3 +152,23 @@
 .about p {
   padding: 20px 80px;
 }
+
+.rfa{
+ color: #ED3833;
+}
+.gfa{
+ color: #71BD45;
+}
+.bfa{
+ color: #0E5FE1;
+}
+.yfa{
+ color: #F8C947;
+}
+.pfa{
+ color: #7B2B85;
+}
+.ofa{
+ color: #F1823B;
+}
+
