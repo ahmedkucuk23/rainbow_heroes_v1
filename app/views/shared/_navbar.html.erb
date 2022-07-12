@@ -1,16 +1,16 @@
-
-<nav class="navbar navbar-fixed-top d-flex column align-items-center justify-content-between" style="border: 0!important;font-size: 40px!important; box-shadow: 0!important;">
-  <div class="container">
+<div class="desk-nav">
+<nav class="navbar navbar-fixed-top column justify-content-between" style="border: 0!important;font-size: 40px!important; box-shadow: 0!important; height: 90px!important;">
+  <div class="container" style="display:block; ">
       <div class="logo">
         <a class="navbar-brand" href="#"><%= image_tag "profiln2.png", style: "width:55px;"%></a>
       </div>
       <div class="items">
         <ul class="nav navbar-right d-flex justify-content-between">
-          <li><a class="rli" href="#">Home</a></li>
-          <li><a class="pli" href="#">Roadmap</a></li>
-          <li><a class="bli" href="#">Team</a></li>
-          <li><a class="gli" href="#">Contact</a></li>
-          <li><a class="yli" href="#">FAQ</a></li>
+          <li><a class="rli" href="#home">Home</a></li>
+          <li><a class="pli" href="#roadmap">Roadmap</a></li>
+          <li><a class="bli" href="#team">Team</a></li>
+          <li><a class="gli" href="#contact">Contact</a></li>
+          <li><a class="yli" href="#faq">FAQ</a></li>
         </ul>
       </div>
   </div>
@@ -22,6 +22,25 @@
  -->   <p style="padding-top:350px;"><button class="btn btn-large" st>Buy on Open Sea</button></p>
   </div>
 </div>
+</div>
+
+
+<div class="mob-nav">
+  <input style="display: none;" type="checkbox" id="overlay-input" />
+<label for="overlay-input" id="overlay-button"><span></span></label>
+  <div id="overlay">
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#roadmap">Roadmap</a></li>
+      <li><a href="#team">Team</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#faq">FAQ</a></li>
+    </ul>
+  </div>
+
+</div>
+
+
 
 
 <script type="text/javascript">

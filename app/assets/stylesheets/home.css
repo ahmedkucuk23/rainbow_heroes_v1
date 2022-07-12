@@ -292,3 +292,15 @@ ul li .descr::before {
 .credits a {
   color: var(--color);
 }
+
+
+@media (max-width: 800px) {
+  .desk-nav{
+    display: none;
+  }
+  }
+  @media (min-width: 800px) {
+  .mob-nav{
+    display: none;
+  }
+  }
