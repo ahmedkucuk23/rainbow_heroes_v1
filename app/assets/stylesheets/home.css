@@ -304,3 +304,35 @@ ul li .descr::before {
     display: none;
   }
   }
+
+  .home-header-2{
+    color: #fff;
+    font-size: 30px;
+  }
+
+  .discord-button{
+    background: #5969EA;
+    padding: 13px 17px;
+    color: #fff;
+    font-weight: bold;
+  }
+
+  .discord-button:hover{
+    background: #fff;
+    padding: 13px 17px;
+    color: #000;
+    font-weight: bold;
+  }
+
+
+
+  .reveal{
+  position: relative;
+  transform: translateY(40px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+.reveal.active{
+  transform: translateY(0);
+  opacity: 1;
+}
